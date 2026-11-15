@@ -1,0 +1,6 @@
+extend_select = ["TS022", "TS026"]
+
+[extend-per-file-ignores]
+"examples/test_all.zig" = ["TS005"]
+"src/i_application_view.zig" = ["TS025"]
+"src/i_virtual_desktop_notification.zig" = ["TS025"]
